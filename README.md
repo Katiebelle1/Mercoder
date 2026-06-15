@@ -1,4 +1,4 @@
-Code snippits from CSC325 Mercer University group project. 
+Code snippits from CSC325 Mercer University group project from Fall 2023
 
 MerCoder website.
 
