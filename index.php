@@ -10,7 +10,7 @@ if(!isset($_SESSION['loggedin'])) {
     require_once 'PHP/error_handling.php';
     require_once 'PHP/get_all_markers.php';
     //Geocode API Key for function params
-    $api_key = 'AIzaSyAV2jXEkwfKvpehW3TGhQMu8FXQrZ16sNQ';
+    $api_key = '###';
     $mapmarkers = getAllMarkers($api_key);
 ?>
 
@@ -235,7 +235,7 @@ if(!isset($_SESSION['loggedin'])) {
                     }
                 </script>  
             </div>
-            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfhDoPuP4Hkf_nis_oKqwol7Tk5TuzJA8&callback=myMap"></script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=########&callback=myMap"></script>
         </section>
         
         <!-- Footer-->
